@@ -1,0 +1,9 @@
+10 - Apply the required color, font size and style, padding and margin, etc. DONE
+10 - Head and Footer are the same as picture shows and they stay the same for all pages DONE
+05 - Page Home is the same as picture shows DONE
+20 - Page My Skill is the same as picture shows
+05 - Page Recommendation is the same as picture shows
+10 - Page Works is the same as picture shows
+10 - Page Hire Me is the same as picture shows15 - Three Pop-up Window display the same as picture shows
+10 - All pages should be responsive without using Bootstrap
+05 - Deploying on UTA Cloud

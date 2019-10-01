@@ -31,6 +31,14 @@ footer {
     text-align: center;
 }
 
+#footer_links {
+    float: right;
+    margin-top: -20px;
+    margin-right: 20px;
+    font-size: 20px;
+    letter-spacing: 10px;   
+}
+
 button {
     background: linear-gradient(to right, #3fcaff 0%, #a4ffb0 51%, #3fcaff 100%);
     background-size: 200% auto;
@@ -130,6 +138,37 @@ footer {
 
 .skills .form_about_me {
     height: 300px;
+}
+
+#class_div_left {
+    float: left;
+    height: 800px;
+    width: 40%;
+    margin-top: -250px;
+    margin-left: 50px;
+}
+
+#class_div_left h1 {
+    font-size: 80px;
+    font-weight: bold;
+}
+
+#move_up {
+    margin-top: -50px;
+}
+
+img {
+    border: 5px solid #6b808c;
+}
+
+#class_div_right table td {
+    padding: 50px;
+}
+
+#class_div_right {
+    margin-top: -220px;
+    float: right;
+    margin-right: 50px;
 }
 
 /* portfolio page */
