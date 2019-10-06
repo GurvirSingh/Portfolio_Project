@@ -186,6 +186,55 @@ img {
     height: 350px;
 }
 
+.p_nav {
+    margin-top: 50px;
+}
+
+.p_nav li {
+    display: inline;
+    padding: 10px;
+    margin-left: 10px;
+    background-color: beige;
+    border: 2px solid rgb(47, 47, 207);
+}
+
+.projects td {
+    padding: 80px;
+}
+
+.projects {
+    margin-left: 50px;
+}
+
+.projects img {
+    border: 0px;
+}
+
+.projects p{
+    margin-left: 230px;
+    font-size: 22px;
+    margin-top: -180px;
+}
+
+
+#popup {
+    height: 500px;
+    width: 800px;
+    background-color: #ffffff;
+    position: absolute;
+    margin-left: 30%;
+    border: 1px solid black;
+    border-radius: 10px;
+    z-index:3;
+}
+
+#popup span {
+    float: right;
+    margin-top: 5px;
+    margin-right: 8px;
+}
+
+
 /* experience page */
 .experience .form_about_me {
     height: 620px;
@@ -284,6 +333,31 @@ img {
     margin-top: -180px;
 }
 
+.hire_me_1 {
+    height: 1000px;
+    /* background-color: black; */
+    width: 100%;
+}
+
+.hire_me_2 {
+    height: 100px;
+    width: 80%;
+    margin-left: 100px;
+    margin-bottom: 400px;
+    /* background-color: blueviolet; */
+}
+
+.hire_me_2 h1 {
+    font-size: 50px;
+}
+
+.hire_me_2 img {
+    border-radius: 50%;
+    height: 250px;
+    width: 200px;
+    margin-left: 40px;
+}
+
 /* About me */
 
 .about_me_left {
@@ -294,11 +368,25 @@ img {
     margin-top: -200px;
 }
 
-.about_me_left img {
-    margin-left: 100px;
-    height: 500px;
-    width: 370px;
-    border-radius:20px;
+.hire_me_2 img {
+    margin-left: 20px;
+    height: 200px;
+    width: 180px;
+    border-radius: 50%;
+}
+
+.hire_me_2 p {
+    margin-left: 250px;
+    margin-top: -150px;
+    font-size: 25px;
+}
+
+.hire_me_2 h2{
+    margin-left: 260px;
+    margin-top: -20px;
+    color: rgb(230, 195, 0);
+    text-shadow: 0px 0px 1px black;
+    letter-spacing: 5px;
 }
 
 .about_me_left h1, h2 {
