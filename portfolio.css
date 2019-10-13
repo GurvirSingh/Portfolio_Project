@@ -176,7 +176,7 @@ img {
 }
 
 .skills_div_2 {
-    margin-top: 300px;
+    margin-top: 100px;
     
     /* background-color: black; */
 }
@@ -185,7 +185,7 @@ img {
     height: 800px;
     width: 100%;
     /* background-color: blue; */
-    margin-top: 550px;
+    margin-top: -150px;
 }
 
 .round {
@@ -280,7 +280,7 @@ img {
     width: 100%;
     /* background-color: rebeccapurple; */
     float: left;
-    margin-top: 90px;
+    margin-top: -90px;
 }
 
 #software_bottom td{
@@ -510,8 +510,12 @@ img {
 }
 
 #exp_content {
-    margin-top: -200px;
+    margin-top: 100px;
     margin-left: 40px;
+}
+
+#exp_content_wrapper, .exp_content {
+    margin-top: -200px;
 }
 
 #exp_para {
@@ -561,6 +565,40 @@ img {
     height: 360px;
 }
 
+.cust1 {
+    height: 900px;
+    width: 100%;
+    /* background-color: beige; */
+    position: absolute;
+    margin-top: -250px;
+    float:left;
+    font-size: 50px;
+    text-align: center;
+}
+
+.cust1 p{
+    font-size: 20px;
+    margin-top: -80px;
+}
+
+.cust2 {
+    height: 900px;
+    width: 100%;
+    /* background-color: black; */
+    margin-top: 700px;
+    float: left;
+    text-align: center;
+}
+
+.cust2 h1{
+    font-size: 90px;
+}
+
+.cust2 #pro{
+    font-size: 50px;
+    margin-top: -50px;
+}
+
 /* sign up */
 
 .signup .form_about_me {
@@ -603,6 +641,7 @@ img {
 }
 
 .hire_me_1 {
+    margin-top: -200px;
     height: 1000px;
     /* background-color: black; */
     width: 100%;
@@ -626,11 +665,78 @@ img {
     width: 200px;
     margin-left: 40px;
 }
+.stats {
+    height: 500px;
+    width: 100%;
+    background-color: black;
+    float: left;
+    margin-top: -250px;
+    margin-bottom: 100px;
+    text-align: center;
+    background-image: url("71467.jpg");
+}
+
+.stats_img {
+    height: 500px;
+    width: 100%;
+    background-color: rgba(0,0,0,0.5);
+    /* opacity: 0.3; */
+}
+
+.stats .round {
+    opacity: 1 !important;
+    background-color: rgb(88, 131, 24);
+    margin-right: 200px;
+    z-index: 2;
+    margin-top: 100px;
+}
+
+.stats #p1 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 42px;
+    margin-left: 100px;
+    margin-top: 350px;
+}
+
+.stats #p2 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 42px;
+    margin-left: 445px;
+    margin-top: 350px;
+}
+
+.stats #p3 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 42px;
+    margin-left: 950px;
+    margin-top: 350px;
+}
+
+.stats #p4 {
+    color: white;
+    font-weight: bold;
+    position: absolute;
+    font-size: 42px;
+    margin-left: 1420px;
+    margin-top: 350px;
+}
+
+.fasstat {
+    margin-top: 50px;
+    margin-left: 0px;
+    color: white;
+}
 
 /* About me */
 
 .about_me_left {
-    height: 800px;
+    height: 600px;
     width: 30%;
     /* background-color: pink; */
     float: left;
@@ -679,3 +785,11 @@ img {
 .about_me_right p,a {
     margin-left: 20px;
 }
+
+/* Responsive Design */
+
+@media only screen and (max-width: 1530px) {
+    nav {
+        font-size: 10px;
+    }
+  }
