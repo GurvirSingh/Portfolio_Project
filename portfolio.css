@@ -181,6 +181,246 @@ img {
     /* background-color: black; */
 }
 
+.skills_bars {
+    height: 800px;
+    width: 100%;
+    /* background-color: blue; */
+    margin-top: 550px;
+}
+
+.round {
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+    border-radius: 50%;
+    margin-left: 20px;
+    float:left;
+    margin-left:60px;
+    overflow: hidden;
+}
+
+.round_text {
+    position: absolute;
+    color: white;
+    margin-left: 70px;
+}
+
+.round_text1 {
+    position: absolute;
+    margin-top: -300px;
+    color: white;
+    margin-left: 80px;
+}
+
+.round_cover2 {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    background-color: blue;
+    margin-top: -380px;
+    margin-left:20px;
+    border-radius: 50%;
+}
+
+.round_per1 {
+    height: 400px;
+    width: 100px;
+    position: relative;
+    background-color: white;
+}
+
+.round_per2 {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    float:right;
+    background-color: white;
+}
+
+.round_text2 {
+    position: absolute;
+    margin-top: 90px;
+    color: white;
+    margin-left: 75px;
+}
+
+.round_cover1 {
+    position: absolute;
+    height: 160px;
+    width: 160px;
+    background-color: blue;
+    margin-top: -80px;
+    margin-left:20px;
+    border-radius: 50%;
+}
+
+.round_cover {
+    position: absolute;
+    height: 170px;
+    width: 170px;
+    background-color:blue;
+    margin-top: 20px;
+    margin-left: 10px;
+    border-radius: 50%;
+}
+
+.round_per {
+    height: 100px;
+    width: 100px;
+    position: relative;
+    background-color: white;
+}
+
+#software td {
+    padding: 20px 100px;
+}
+
+#software_bottom {
+    height: 500px;
+    width: 100%;
+    /* background-color: rebeccapurple; */
+    float: left;
+    margin-top: 90px;
+}
+
+#software_bottom td{
+    padding: 0px 80px;
+    text-align: center;
+    /* border: 4px solid blue; */
+}
+
+#software {
+    height: 500px;
+    width: 47%;
+    /* background-color: pink; */
+    margin-left: 40px;
+    float: left;
+}
+
+#software h3 {
+    margin-left: 20px;
+    font-size: 30px;
+}
+
+.progress {
+   display: block;
+   border-top: 10px solid white;
+   width: 800px;
+   margin-left: 20px;
+}
+
+.progress1 {
+    display: block;
+    position: absolute;
+    border-top: 10px solid blue;
+    width: 750px;
+    margin-left: 20px;
+    margin-top:-10px;
+ }
+
+ .progress2 {
+    display: block;
+    position: absolute;
+    border-top: 10px solid blue;
+    width: 700px;
+    margin-left: 20px;
+    margin-top:-10px;
+ }
+
+ .progress3 {
+    display: block;
+    position: absolute;
+    border-top: 10px solid blue;
+    width: 500px;
+    margin-left: 20px;
+    margin-top:-10px;
+ }
+
+ .progress4 {
+    display: block;
+    position: absolute;
+    border-top: 10px solid blue;
+    width: 650px;
+    margin-left: 20px;
+    margin-top:-10px;
+ }
+
+ .progress5 {
+    display: block;
+    position: absolute;
+    border-top: 10px solid blue;
+    width: 550px;
+    margin-left: 20px;
+    margin-top:-10px;
+ }
+
+ .progress6 {
+    display: block;
+    position: absolute;
+    border-top: 10px solid blue;
+    width: 400px;
+    margin-left: 20px;
+    margin-top:-10px;
+ }
+
+ .numbers {
+     display: block;
+     position: absolute;
+     margin-top: -24px;
+     margin-left: 763px;
+ }
+
+ .numbers1 {
+    display: block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 713px;
+}
+
+.numbers2 {
+    display: block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 513px;
+}
+
+.numbers3 {
+    display: block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 663px;
+}
+
+.numbers4 {
+    display: block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 563px;
+}
+
+.numbers5 {
+    display: block;
+    position: absolute;
+    margin-top: -24px;
+    margin-left: 413px;
+}
+
+.rec {
+    margin-left: 50px;
+    margin-bottom: 50px;
+    border: 3px solid blue;
+    padding: 10px;
+}
+
+.reco_text {
+    position: absolute;
+    margin-left: 20px;
+}
+
+#software p {
+    margin-left:20px;
+}
+
 /* portfolio page */
 .portfolio .form_about_me {
     height: 350px;
@@ -196,6 +436,36 @@ img {
     margin-left: 10px;
     background-color: beige;
     border: 2px solid rgb(47, 47, 207);
+}
+
+.msg1, .msg2, .msg3, .msg4, .msg5, .msg6 {
+    position: absolute;
+    margin-top: -25px;
+    font-size: 25px;
+}
+
+.msg1 {
+    margin-left: 760px;
+}
+
+.msg2 {
+    margin-left: 710px;
+}
+
+.msg3 {
+    margin-left: 510px;
+}
+
+.msg4 {
+    margin-left: 660px;
+}
+
+.msg5 {
+    margin-left: 560px;
+}
+
+.msg6 {
+    margin-left: 410px;
 }
 
 .projects td {
@@ -366,6 +636,12 @@ img {
     /* background-color: pink; */
     float: left;
     margin-top: -200px;
+}
+
+.about_me_left img {
+    height: 500px;
+    width: 400px;
+    margin-left: 120px;
 }
 
 .hire_me_2 img {
