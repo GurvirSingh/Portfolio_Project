@@ -488,13 +488,12 @@ img {
 
 
 #popup {
-    height: 500px;
-    width: 800px;
-    background-color: #ffffff;
+    height: 150%;
+    width: 100%;
+    background-color: #000000;
     position: absolute;
-    margin-left: 30%;
-    border: 1px solid black;
-    border-radius: 10px;
+    opacity: 0.9;
+    margin-top: -50px;
     z-index:3;
 }
 
@@ -558,7 +557,7 @@ img {
 /* contact page */
 
 .contact .form_about_me {
-    margin-top: -60px;
+    margin-top: 50px;
     height: 360px;
 }
 

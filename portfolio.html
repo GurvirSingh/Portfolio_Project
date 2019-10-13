@@ -35,26 +35,37 @@
         <div id="popup">
             <span class="close" onclick="myFunction()" style="cursor: pointer;"> <i class="far fa-window-close fa-2x"></i> </span>
 
+            <div class="contact">
+                    <form method="POST" action="#" class="form_about_me">
+                            <p>To Contact Me Please Fill The Form Below:</p>
+                            <label for="cfName">Name:</label></br/>
+                            <input type="text" id="cfName" name="cfName" class="in_text">
+                            <br/></br/>
+    
+                            <label for="cemail">Email:</label></br/>
+                            <input type="email" id="cemail" name="cemail" class="in_text">
+                            <br/></br/>
+                    
+                            <label for="ccon">Contact:</label></br/>
+                            <input type="text" id="ccon" name="ccon" class="in_text">
+                            <br/></br/>
+                    
+                            <button type="submit" name="submit" class="btn btn-primary">Submit</button>
+                        
+                          </form>
+            </div>
+
         </div>
 
         <script>
-                    function myFunction() {
-  var x = document.getElementById("popup");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
-
-function myFunction1() {
-  var x = document.getElementById("complete");
-  if (x.style.display === "none") {
-    x.style.display = "block";
-  } else {
-    x.style.display = "none";
-  }
-}
+            function myFunction() {
+                var x = document.getElementById("popup");
+                if (x.style.display === "none") {
+                    x.style.display = "block";
+                } else {
+                    x.style.display = "none";
+                    }
+                }
         </script>
         <div id="exp_content">
             <h1 id="exp_heading">MY LATEST WORK</h1>
